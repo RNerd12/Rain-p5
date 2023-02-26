@@ -1,6 +1,6 @@
 var drops = [];
 function setup() {
-  createCanvas(1536, 864);
+  createCanvas(windowWidth, windowHeight);
   for(var i=0;i<1000;i++){
     drops[i] = new drop();
   }
